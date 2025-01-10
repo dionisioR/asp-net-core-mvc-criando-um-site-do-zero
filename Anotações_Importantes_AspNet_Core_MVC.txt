@@ -1,0 +1,18 @@
+=================================================
+       CRIANDO UM SITE: APS.NET CORE MVC
+=================================================
+>>> Create a new project
+>>> Pesquise [asp.net core web app]
+>>> >>> Selecione: ASP.NET Core Web App (Model-View-Controller)
+>>> >>> >>>
+>>> Project Name: MVC_01
+>>> Location: Selecione o local para salvar o projeto
+>>> Solution Name: MVC_01
+>>> Desmarque: Place solution and project in the same directory
+>>> >>>
+>>> Framework: .NET 6.0
+>>> Authentication type: None
+>>> Marcar Configure for HTTPS
+>>> Create
+=================================================
+=================================================
