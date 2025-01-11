@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\MVC_01\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1517E941-8BFC-4BB1-BC61-AD0ED831A3B9}|MVC_01\\MVC_01.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\mvc_01\\mvc_01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1517E941-8BFC-4BB1-BC61-AD0ED831A3B9}|MVC_01\\MVC_01.csproj|solutionrelative:mvc_01\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1517E941-8BFC-4BB1-BC61-AD0ED831A3B9}|MVC_01\\MVC_01.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\mvc_01\\mvc_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1517E941-8BFC-4BB1-BC61-AD0ED831A3B9}|MVC_01\\MVC_01.csproj|solutionrelative:mvc_01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1517E941-8BFC-4BB1-BC61-AD0ED831A3B9}|MVC_01\\MVC_01.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\mvc_01\\mvc_01\\mvc_01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1517E941-8BFC-4BB1-BC61-AD0ED831A3B9}|MVC_01\\MVC_01.csproj|solutionrelative:mvc_01\\mvc_01.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\MVC_01\\MVC_01\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MVC_01\\Controllers\\HomeController.cs",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\MVC_01\\MVC_01\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MVC_01\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T15:58:16.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\MVC_01\\MVC_01\\Program.cs",
+              "RelativeDocumentMoniker": "MVC_01\\Program.cs",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\MVC_01\\MVC_01\\Program.cs",
+              "RelativeToolTip": "MVC_01\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T15:56:42.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MVC_01",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\MVC_01\\MVC_01\\MVC_01.csproj",
+              "RelativeDocumentMoniker": "MVC_01\\MVC_01.csproj",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\MVC_01\\MVC_01\\MVC_01.csproj",
+              "RelativeToolTip": "MVC_01\\MVC_01.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-11T14:34:05.498Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

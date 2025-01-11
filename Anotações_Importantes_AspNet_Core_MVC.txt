@@ -9,10 +9,34 @@
 >>> Location: Selecione o local para salvar o projeto
 >>> Solution Name: MVC_01
 >>> Desmarque: Place solution and project in the same directory
->>> >>>
+>>> >>>	
 >>> Framework: .NET 6.0
 >>> Authentication type: None
 >>> Marcar Configure for HTTPS
 >>> Create
+
+
+
+
+=================================================
+ Links úteis
+=================================================
+https://www.connectionstrings.com/
+
+
+
+
+=================================================
+ MySQL
+=================================================
+>>> Instalar pelo Nuget
+	Pomelo.EntityFraneworkCore.MySQL
+
+>>> String de Conexão
+	"Server=localhost;Database=nome;Uid=usuario;Password=senha"
+
+
+
+
 =================================================
 =================================================
