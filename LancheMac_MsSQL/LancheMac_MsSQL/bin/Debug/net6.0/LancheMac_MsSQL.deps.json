@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "LancheMac_MsSQL/1.0.0": {
+        "runtime": {
+          "LancheMac_MsSQL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "LancheMac_MsSQL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

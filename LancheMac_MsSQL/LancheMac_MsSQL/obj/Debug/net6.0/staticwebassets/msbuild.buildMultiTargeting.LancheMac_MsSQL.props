@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LancheMac_MsSQL.props" />
+</Project>
