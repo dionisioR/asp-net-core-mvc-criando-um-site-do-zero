@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_MsSQL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE964A9D-A742-472D-B1AF-56AEBC05B954}|LancheMac_MsSQL\\LancheMac_MsSQL.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_mssql\\lanchemac_mssql\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FE964A9D-A742-472D-B1AF-56AEBC05B954}|LancheMac_MsSQL\\LancheMac_MsSQL.csproj|solutionrelative:lanchemac_mssql\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FE964A9D-A742-472D-B1AF-56AEBC05B954}|LancheMac_MsSQL\\LancheMac_MsSQL.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_mssql\\lanchemac_mssql\\views\\shared\\_carousel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE964A9D-A742-472D-B1AF-56AEBC05B954}|LancheMac_MsSQL\\LancheMac_MsSQL.csproj|solutionrelative:lanchemac_mssql\\views\\shared\\_carousel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE964A9D-A742-472D-B1AF-56AEBC05B954}|LancheMac_MsSQL\\LancheMac_MsSQL.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_mssql\\lanchemac_mssql\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FE964A9D-A742-472D-B1AF-56AEBC05B954}|LancheMac_MsSQL\\LancheMac_MsSQL.csproj|solutionrelative:lanchemac_mssql\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE964A9D-A742-472D-B1AF-56AEBC05B954}|LancheMac_MsSQL\\LancheMac_MsSQL.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_mssql\\lanchemac_mssql\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FE964A9D-A742-472D-B1AF-56AEBC05B954}|LancheMac_MsSQL\\LancheMac_MsSQL.csproj|solutionrelative:lanchemac_mssql\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE964A9D-A742-472D-B1AF-56AEBC05B954}|LancheMac_MsSQL\\LancheMac_MsSQL.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_mssql\\lanchemac_mssql\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Carousel.cshtml",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_MsSQL\\LancheMac_MsSQL\\Views\\Shared\\_Carousel.cshtml",
+              "RelativeDocumentMoniker": "LancheMac_MsSQL\\Views\\Shared\\_Carousel.cshtml",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_MsSQL\\LancheMac_MsSQL\\Views\\Shared\\_Carousel.cshtml",
+              "RelativeToolTip": "LancheMac_MsSQL\\Views\\Shared\\_Carousel.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-12T15:29:42.651Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -32,14 +49,14 @@
               "RelativeDocumentMoniker": "LancheMac_MsSQL\\Views\\Home\\Index.cshtml",
               "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_MsSQL\\LancheMac_MsSQL\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "LancheMac_MsSQL\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-11T16:12:29.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_MsSQL\\LancheMac_MsSQL\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "LancheMac_MsSQL\\Views\\Shared\\_Layout.cshtml",
@@ -52,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "HomeController.cs",
               "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_MsSQL\\LancheMac_MsSQL\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "LancheMac_MsSQL\\Controllers\\HomeController.cs",
@@ -60,8 +77,7 @@
               "RelativeToolTip": "LancheMac_MsSQL\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAzwAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-11T16:11:06.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-11T16:11:06.163Z"
             }
           ]
         }
