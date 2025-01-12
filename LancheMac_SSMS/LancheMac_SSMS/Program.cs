@@ -1,4 +1,18 @@
+using LancheMac_SSMS.Context;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// Configurar a string de conexão
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Registrar o DbContext e configurar o SQL Server
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(connectionString)
+);
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
