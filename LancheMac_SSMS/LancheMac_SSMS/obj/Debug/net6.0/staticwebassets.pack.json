@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\wwwroot\\images\\carousel11.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel11.jpg"
+    },
+    {
+      "Id": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\wwwroot\\images\\carousel12.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel12.jpg"
+    },
+    {
+      "Id": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\wwwroot\\images\\carousel13.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel13.jpg"
+    },
+    {
       "Id": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
