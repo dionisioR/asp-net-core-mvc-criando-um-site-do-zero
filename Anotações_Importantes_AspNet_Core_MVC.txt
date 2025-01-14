@@ -26,17 +26,273 @@ https://www.connectionstrings.com/
 
 
 
-=================================================
- MySQL
-=================================================
->>> Instalar pelo Nuget
-	Pomelo.EntityFraneworkCore.MySQL
+===========================================
+ Processo para criar banco
+===========================================
+- Criar a classe de modelo (modelo de domínio)
+- Entityframework
+-- Migrations
+--- Banco de dados
 
->>> String de Conexão
-	"Server=localhost;Database=nome;Uid=usuario;Password=senha"
+===========================================
+   Entityframework
+-------------------------------------------
+  LINQ >>> DbContext >>> SQL >>> DbSet
+  
+  O Entityframework possui duas classe importantes:
+  - DbContext
+  - DbSet<T>
+  
+  >>> DbContext  [DataBase]
+  >>> >>> Conexão com a base de dados
+  >>> >>> Operação com dados 
+  >>> >>> Consulta e persistência
+  >>> >>> Mapeamento de dados 
+  >>> >>> Gestão de transação
+  >>> >>> Possui 1 ou + DbSets
+  
+  >>> DbSet<T>   [Tabelas]
+  >>> >>> Coleção para entidade do modelo (Classes)
+  >>> >>> Coleção persiste na memória
+  >>> >>> Para concretizar e salvar as alterações na base de dados devemos usar "SaveChange()"
+  >>> >>> Para cada modelo devo criar um DbSet
+  
+  
+-------------------------------------------
+ Instalando Entityframework
+-------------------------------------------
+SQL SERVER
+>>> NuGet 
+>>>    Microsoft.EntityFrameworkCore.SqlServer
+>>>    Microsoft.EntityFrameworkCore.Design
+
+MySQL
+>>> NuGet
+>>>    Pomelo.EntityFrameworkCore.MySql
+>>>    Microsoft.EntityFrameworkCore.Design
+>>>    String de Conexão
+			"Server=localhost;Database=nome;Uid=usuario;Password=senha"
+
+
+
+-------------------------------------------
+ Criando a classe CONTEXT
+-------------------------------------------
+>>> Diretório "Context" 
+>>>    AppDbContext.cs (Essa classe poderia ter qualquer nome)
+
+-------------------------------------------
+ String de conexão
+-------------------------------------------
+>>> No arquivo "appsettings.json"
+
+>>>    Autenticação com Windows
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=DESKTOP-74TBS68\\SQLEXPRESS; Initial Catalog=LanchesDatabase; Integrated Security=True; TrustServerCertificate=True;"
+  },
+
+
+OUTROS EXEMPLOS DE STRING DE CONEXÃO
+>>> SQL Server Authentication: Server=ServerName;Database=DatabaseName;User Id=UserName;Password=UserPassword;
+>>> Windows Authentication: Server=ServerName;Database=DatabaseName;Trusted_Connection=True;
+>>> LocalDB: Server=(localdb)\MinhaInstancia;Integrate Security=True;
+>>> SQL Express: Data Source=nome_server\\sqlexpress;Initial Catalog=Database1;Integrate Security=True;
+
+>>> Obs: Esta string de conexao deve ser utilizada somente no ambiente de desenvolvimento:
+>>>    Server=DESKTOP-74TBS68\\SQLEXPRESS; Initial Catalog=LanchesDatabase; Integrated Security=True; TrustServerCertificate=True;
+
+-------------------------------------------
+ Referenciando a string de conexao em nosso projeto
+-------------------------------------------
+>>> No arquivo "Program.cs" adicione o código 
+
+using LancheMac_SSMS.Context;   // <<<<<
+using Microsoft.EntityFrameworkCore;  // <<<<<
+
+var builder = WebApplication.CreateBuilder(args);
+
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// Configurar a string de conexão
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Registrar o DbContext e configurar o SQL Server
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(connectionString)
+);
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+-------------------------------------------
+ Certificado digital
+-------------------------------------------
+>>> Em algumas situações será necessario ter um certificado digital (https) no 
+ambiente de desenvolvimento.
+
+>>> Verifica a existência do certificado de desenvolvimento, mas não executa nenhuma ação.
+>>>    dotnet dev-certs https --check
+
+>>> Gera um certificado auto assinado para HTTPS no desenvolvimento
+>>>    dotnet dev-certs https
+
+>>> Confia no certificado da maquina local 
+>>>    dotnet dev-certs https --trust
+
+-------------------------------------------
+Data Annotations
+-------------------------------------------
+>>> System.ComponentModel.DataAnnotations
+>>> System.ComponentModel.DataAnnotations.Schema
+
+>>> Impor regras de validação na view
+-------------------------------------------
+>>>    Required - Propriedade obrigatória
+>>>    Range - Restrição de intervalo numérico
+>>>    EmailAddress - Valida o formato de um e-mail
+>>>    Phone - Valida formato telefone
+>>>    MinLenght - Comprimento mínino dos dados de cadeira de caracteres da propriedade
+>>>    MaxLenght - Comprimento máximo dos dados de cadeira de caracteres da propriedade
+>>>    StringLenght - Comprimento mínimo e máximo de caracteres permitido na propriedade
+>>>    RegularExpression - Permite definir expressões regulares para validações especificas
+>>>    Display - Especifica como os campos de dados são exibidos e formatados na View
+>>>    DisplayFormat - Aplica um formato definido a uma propriedade que será exibido na View
+>>>    Obs.: Parâmetro "ErrorMessage" define a mensagem de erro
+
+>>> Atributos de modelagem de dados
+-------------------------------------------
+>>>    Key* - Identifica a propriedade como uma chave primária
+>>>    Table - Define o nome da tabela para a qual a classe será mapeada
+>>>    Column - Define a coluna na tabela para a qual a propriedade será mapeada
+>>>    DataType* - Associa um tipo de dados adicional a uma propriedade
+>>>    ForeignKey - Espeficia que a propriedade é usada como uma chave estrangeira
+>>>    NotMapped - Exclui a propriedade do mapeamento
+>>>    Obs.: * System.ComponentModel.DataAnnotations.Schema
+
+-------------------------------------------
+ MIGRATIONS
+-------------------------------------------
+>>> Permite atualizar de forma incremental o esquema do banco de dados e assim
+mantê-lo sincronizado com o modelo de dados do seu projeto presernvando os dados existentes.
+
+>>> Principais tarefas:
+>>>    Atualizar o banco de dados.
+>>>    Personalizar o código de migração (modificar e suplementar o código gerado)
+>>>    Remover uma migração (Excluir o código gerado)
+>>>    Reverter uma migração (Desfazer as alterações no banco de dados)
+>>>    Gerar Scripts SQL (gerar scripts para atualizar ou solucionar problemas)
+>>>    Aplicar migrações em tempo de execução: Usar o metodo "Migrate()" para migração em runtime
+
+>>> Requisitos
+>>>    Instalar as ferramentas do "Entity Framework Core"
+>>>    Criar o modelo de entidade (classes)
+>>>    Criar a classe de contexto (DbContext, DbSets) para mapear as entidades
+>>>    Definir a string de conexão (appsettings.json)
+>>>    Definir o provedor/serviçõ do banco de dados e a string de conexão (Program.cs)
+
+>>> Como utilizar o migration
+>>>    Com o Package Manager Console do Visul Studio
+>>>    Ou com a linha de comando (NET CLI) com VS Code
+>>>    O processo exige duas etapas(1º Criar a migração, 2º Aplicar a migração)
+
+
+
+>>> Migration com Package Manager Console
+-------------------------------------------
+>>>    0º De um Build no projeto
+
+>>>    1º Criando a migração
+>>>        add-migration NomeDaMigração [options]
+
+>>>    2º Aplicando a migração
+>>>        update-database [options]
+
+>>>    3º Removendo a migração
+>>>        remove-migration
+
+
+
+>>> Migration com VS Code (Ferramenta NET CLI)
+-------------------------------------------
+>>>    Instalar a ferramenta de linha de comando do EF Core
+>>>        dotnet tool install --global dotnet-ef
+
+>>>    0º De um Build no projeto
+
+>>>    1º Criando a migração
+>>>        dotnet ef migrations add NomeDaMigração [options]
+
+>>>    2º Aplicando a migração
+>>>        dotnet ef database update [options]
+
+>>>    3º Removendo a migração
+>>>        dotnet ef migrations remove
+
+
+
+>>> POPULANDO a tabela com MIGRATIONS
+-------------------------------------------
+>>> Primeiro devemos criar uma migration.
+>>>    add-migration NomeDaMigração
+
+>>> Se vc não fez nenhuma alteração nas classes de entidade será criado uma migration vazia.
+>>> Faça o insert através do método "UP" conforme exemplo e depois execute o comando "update-database"
+
+-------
+   public partial class PopularCategorias : Migration
+    {
+        protected override void Up(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.Sql("insert into Categoria(CategoriaNome, Descricao) " +
+                "values('Normal', 'Lanche feito com os melhores ingredientes')");
+
+            migrationBuilder.Sql("insert into Categoria(CategoriaNome, Descricao) " +
+                "values('Natural', 'Lanche feito com ingredientes integrais e naturais')");
+        }
+
+        protected override void Down(MigrationBuilder migrationBuilder)
+        {
+            migrationBuilder.Sql("DELETE FROM Categoria");
+        }
+    }
+}
+-----
 
 
 
 
-=================================================
-=================================================
+
+===========================================
+ IMPLEMENTANDO O PADRÃO REPOSITORIES
+===========================================
+>>> Devemos criar a pasta "repositories" e dentro desta pasta criamos a pasta "Interfaces"
+>>>    Dentro da pasta "Interfaces" vamos criar nossas interfaces
+>>>    Dentro da pasta "repositories" vamos criar as classes concretas que irão implenetar as interfaces
+>>>    Depois devemos Registrando os serviços de repositórios : Injeção de dependência
+>>>    Em nosso exemplo isso é feito no arquivo "Program.cs"
+>>>        Temos três escopos:
+>>>        1: Transient: services.AddTransient<,>
+				Uma nova instância do serviço é criada cada vez que um serviço é solicitado do provedor de serviços.
+				Se o serviço for descartado, o escopo do serviço monitorará todas as instâncias do serviço de destruirá
+				todas as instâncias do serviço criadas nesse escopo quando o escopo do serviço for descartado.
+           2: Scoped: services.AddScoped<,>
+				Uma nova instância do serviço é criada em cada request. A cada requisição temos uma nova instância do serviço.
+				Se o serviço for descartável, ele será descartado quando o escopo do serviço for descartado.
+		   3: Singleton: services.AddSingleton<,>
+				Apenas uma instância do serviço é criada se ainda não estiver registrada como uma instância. Um objeto do serviço
+				é criado e fornecido para todas as requisições. Todas as requisições obtém o mesmo objeto.
+
+Exemplo:
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// Configurar a string de conexão
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+// Registrar o DbContext e configurar o SQL Server
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(connectionString)
+);
+
+// Registrando os serviços de repositórios : Injeção de dependência
+builder.Services.AddTransient<ILancheRepository, LancheRepository>();
+builder.Services.AddTransient<ICategoriaRepository, CategoriaRepository>();
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

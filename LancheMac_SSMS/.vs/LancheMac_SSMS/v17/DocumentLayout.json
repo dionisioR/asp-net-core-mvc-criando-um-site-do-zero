@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\views\\lanche\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\views\\lanche\\list.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\repositories\\lancherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\repositories\\lancherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\controllers\\lanchecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\controllers\\lanchecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\repositories\\interfaces\\ilancherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\repositories\\interfaces\\ilancherepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\repositories\\categoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\repositories\\interfaces\\icategoriarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,6 +51,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "LancheMac_SSMS\\Models\\Categoria.cs",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Models\\Categoria.cs",
+              "RelativeToolTip": "LancheMac_SSMS\\Models\\Categoria.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T23:47:22.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "List.cshtml",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Views\\Lanche\\List.cshtml",
+              "RelativeDocumentMoniker": "LancheMac_SSMS\\Views\\Lanche\\List.cshtml",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Views\\Lanche\\List.cshtml",
+              "RelativeToolTip": "LancheMac_SSMS\\Views\\Lanche\\List.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-14T23:40:12.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LancheController.cs",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Controllers\\LancheController.cs",
+              "RelativeDocumentMoniker": "LancheMac_SSMS\\Controllers\\LancheController.cs",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Controllers\\LancheController.cs",
+              "RelativeToolTip": "LancheMac_SSMS\\Controllers\\LancheController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T23:34:41.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Program.cs",
+              "RelativeDocumentMoniker": "LancheMac_SSMS\\Program.cs",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Program.cs",
+              "RelativeToolTip": "LancheMac_SSMS\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:57:12.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LancheRepository.cs",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Repositories\\LancheRepository.cs",
+              "RelativeDocumentMoniker": "LancheMac_SSMS\\Repositories\\LancheRepository.cs",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Repositories\\LancheRepository.cs",
+              "RelativeToolTip": "LancheMac_SSMS\\Repositories\\LancheRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:46:20.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ILancheRepository.cs",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Repositories\\Interfaces\\ILancheRepository.cs",
+              "RelativeDocumentMoniker": "LancheMac_SSMS\\Repositories\\Interfaces\\ILancheRepository.cs",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Repositories\\Interfaces\\ILancheRepository.cs",
+              "RelativeToolTip": "LancheMac_SSMS\\Repositories\\Interfaces\\ILancheRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T22:42:48.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Context\\AppDbContext.cs",
               "RelativeDocumentMoniker": "LancheMac_SSMS\\Context\\AppDbContext.cs",
@@ -39,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "CategoriaRepository.cs",
               "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Repositories\\CategoriaRepository.cs",
               "RelativeDocumentMoniker": "LancheMac_SSMS\\Repositories\\CategoriaRepository.cs",
@@ -52,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "ICategoriaRepository.cs",
               "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Repositories\\Interfaces\\ICategoriaRepository.cs",
               "RelativeDocumentMoniker": "LancheMac_SSMS\\Repositories\\Interfaces\\ICategoriaRepository.cs",
@@ -60,8 +162,7 @@
               "RelativeToolTip": "LancheMac_SSMS\\Repositories\\Interfaces\\ICategoriaRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-13T20:49:10.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-13T20:49:10.919Z"
             }
           ]
         }
