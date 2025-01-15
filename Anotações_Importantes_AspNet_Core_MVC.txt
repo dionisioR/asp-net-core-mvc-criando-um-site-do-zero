@@ -391,4 +391,92 @@ VIEWMODEL
 
 
 ===========================================
+ PARTIAL VIEW
+===========================================
+>>> É uma view que é renderizada em outra view.
+	São usadas para encapsular a lógica reutilizada nas views permimtindo simplificar a complexidade das views.
+	Podem ser usadas em múltiplas views onde é necessário uma lógica similar evitando assim duplicidade de código.
+	
+>>> Principais usos:
+	- Renderizar menus de navegação
+	- Desenvolver formulários de entrada comuns
+	- Renderizar dados comuns às views (reduz a duplicação)
+	- Dividir arquivos de marcação grandes em arquivos menores.
+	- Possuem a extensão .cshtml
+	- Podem ser retornadas em um método Action (ViewResult)
+	- São iguais as views (a nível de código)
+	- São renderizadas de forma diferente (não executam o arquivo _ViewStart.cshtml)
+	- São armazenadas na pasta Views ou na psta Shared dentro da patas Views
+	- Recomenda-se que o nome do arquivo de uma partial view comece com um sublinhado(_)
+	
+>>> Comportamento de uma 'Partial View' 
+	Uma 'Partial View' criada dentro de uma pasta especificas das views de um controlador pode ser usada por 
+	todas as view dessa pasta.
+	Uma 'Partial View' criada na pasta 'Shared' (dentro da pasta 'View') pode ser usada por todas as 
+	view existentes na pasta Views.
+	
+>>> Utilização da Partial View
+	
+	<partial name="_PartialName" />
+	Tag Helper 'partial' renderiza o conteúdo de forma assíncrona
+	
+	<partial name="~/Pages/_PartialName.cshtml" />
+	Ao definir uma extensão no arquivo da partial view a tag helper referencia uma partial view que deve estar na 
+	mesma pasta que o arquivo que chama a partial view.
+	
+	@await Html.PartialAsync("_PartialName");
+	@await Html.RenderPartialAsync("_PartialName");
+	Usar o Html Helper PartialAsync ou RenderPartialAsync
+	
+	@await Html.PartialAsync("_PartialName.cshtml");
+	@await Html.RenderPartialAsync("_PartialName.cshtml");
+	Quando a extensão do arquivo está presente, o HTML Helper faz referencia a uma partial view que deve 
+	estar na mesma pasta que o arquivo de marcação que chama a partial view.
+	
+>>> Observação:
+	Não é recomendável usar @Html.Partial newm @Html.RenderPartial pois eles são síncronos.
+
+
+>>> Partial View com ACESSO A DADOS
+	
+	<partial name="_PartialName" for="Model" />
+	@await Html.PartialAsync("_PartialName", model);
+	@await Html.RenderPartialAsync("_PartialName", model);
+	
+	Quando uma partial view é instanciada, ela recebe uma cópia do dicionário 'ViewData' do pai.
+	As atualizações feitas nos dados dentro da partial view não sao persistidas na View Pai.
+	As alterações no "ViewData" em uma partial view são perdidas quando a partial view retorna.
+	
+
+
+===========================================
+ CARRINHO DE COMPRAS
+===========================================
+- Criar a classe CarrinhoCompraItem na pasta MODELS que representa um produto 
+  que o usuário seleciona (lanche, bebida, sobremesa).
+
+- Incluir a definição da entidade no arquivo AppDbContext definindo uma propriedade
+  DbSet<> para expressar o mapeamento entre a entidade e a tabela.
+
+- Usar o recurso Migrations do EF Core para atualizar o esquema do banco de dados 
+  criando a tabela CarrinhoCompraItens usando os comandos:
+  
+  add-migration CarrinhoCompraItem 
+  update-database
+  
+	
+
+
+
+
+
+===========================================
+===========================================
+	
+
+
+
+
+
+===========================================
 ===========================================

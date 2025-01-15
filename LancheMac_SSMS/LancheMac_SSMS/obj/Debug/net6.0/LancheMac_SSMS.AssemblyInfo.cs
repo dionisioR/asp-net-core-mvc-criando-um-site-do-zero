@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LancheMac_SSMS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33c102314879c48898c21315f52b73df2bdb8353")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e088b1fe8aa543c148c17125948fb9d5eb9ab977")]
 [assembly: System.Reflection.AssemblyProductAttribute("LancheMac_SSMS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LancheMac_SSMS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

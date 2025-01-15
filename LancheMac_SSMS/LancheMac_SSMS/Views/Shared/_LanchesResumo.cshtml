@@ -1,0 +1,20 @@
+﻿@model Lanche
+
+<div class="col-6 col-sm-6 col-md-4 col-lg-3">
+    <div class="m-3 text-center">
+
+        <figure>
+            <img src="@Model.ImagemUrl" alt="@Model.Nome" class="w-100" />
+        </figure>
+        <h4>@Model.Nome</h4>
+        <p>
+            @Model.DescricaoCurta
+        </p>
+        <h5>
+            Preço: @Model.Preco.ToString("c")
+        </h5>
+       @*  <p>
+            Categoria: @Model.CategoriaAtual
+        </p> *@
+    </div>
+</div>
