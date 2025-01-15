@@ -296,3 +296,99 @@ builder.Services.AddTransient<ILancheRepository, LancheRepository>();
 builder.Services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
+===========================================
+VIEWDATA
+===========================================
+>>> Transfere dados do controller para a View.
+	É do tipo ViwDataDictionary
+	É um dicionário quearmazena dados no formato chave[valor]
+	Exige a conversão de tipos para verificar valores nulos, obter dados, evitar erros.
+	Tempo de vida é o request.
+
+
+>>> Exemplo no controller
+	ViewData["Titulo"] = "Todos os lanches";
+	ViewData["Data"] = DateTime.Now;
+	
+>>> Recuperando os dados na View.
+	@ViewData["Titulo"]
+	@ViewData["Data"]
+	
+
+
+===========================================
+VIEWBAG
+===========================================
+>>> Transfere dados do Controller para a View.
+	É uma propriedade dinâmica (dynamic)
+	É um tipo object que armazena dados no formato chave.valor
+	Não requer a conversão de tipo
+	
+>>> Exemplo no controller
+	ViewBag.Total = "Total de Lanches";
+	ViewBag.TotalLanches = lanches.Count();
+
+>>> Recuperando os dados na View.
+	@ViewBag.Total
+	@ViewBag.TotalLanches
+
+
+
+===========================================
+TEMPDATA
+===========================================
+>>> Transfere dados do controller para a view, da view para o controller 
+	ou de métodos Action para outro método Action no mesmo controlador ou para um controlador diferente.
+	É um objeto dicionário do tipe TempDataDictionary que armazena dados no formato chave[valor]
+	Armazena os dados temporariamente e os remove automaticamente após recupear um valor.
+	Exige a conversão de tipo.
+	
+>>> Exemplo no controller
+	TempData["Nome"] = "RD3W";
+
+>>> Recuperando os dados na View.
+	@TempData["Nome"]
+	
+>>> Observação:	
+	É necessário verificar se a chave existe caso contrário será lançado uma exceção.
+	
+	Exemplo:
+	
+	@if(TempData.ContainsKey("Nome")){
+		<h1>@TempData["Nome"];</h1>
+	}
+	
+	
+
+
+===========================================
+VIEWMODEL
+===========================================
+>>> É um apadrão de projeto que permite separar as responsabilidades do modelo de domínio dos modelos que atendam as views.
+	Representa o conjunto de uma ou mais entidades do Modelo de Domínio e de outras informações que serão exibidas em uma View.
+	ViewModels são usadas para moldar múltiplas entidades do modelo de domínio em um único objeto oferencendo uma melhor otimização.
+	1. Contém apenas as propriedades que serão representadas na view.
+	2. Pode possuir regras específicas de validação (Data Annotations)
+	3. Pode conter múltiplas entidades ou objetos dos modelos de domínio.
+	4. Contém a lógica da interface do usuário
+	5. Contém somente dados e comportamentos relacionados às Views.
+	
+>>> Utilização da ViewModel 
+	- Gerenciar ou criar listas suspensas para uma entidade.
+	- Criar Views Mestre-Detalhes
+	- Usar em carrinhos de compras
+	- Usadas em paginação de dados 
+	- Udadas para implenetar o login e o registro.
+	- Permite isolar e desacoplar o modelo de domínio da lógica de exibição da view.
+	
+
+
+
+
+
+===========================================
+===========================================

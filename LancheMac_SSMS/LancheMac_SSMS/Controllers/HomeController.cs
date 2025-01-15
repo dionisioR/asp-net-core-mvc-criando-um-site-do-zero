@@ -6,6 +6,8 @@ namespace LancheMac_SSMS.Controllers {
     public class HomeController : Controller {
       
         public IActionResult Index() {
+
+            TempData["Nome"] = "RD3W";
             return View();
         }
 

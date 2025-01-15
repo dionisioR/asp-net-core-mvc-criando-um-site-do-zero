@@ -11,7 +11,14 @@ namespace LancheMac_SSMS.Controllers {
         }
 
         public IActionResult List() {
+            ViewData["Titulo"] = "Todos os lanches";
+            ViewData["Data"] = DateTime.Now;
+
             var lanches = _lacheRepository.Lanches;
+
+            ViewBag.Total = "Total de lanches";
+            ViewBag.TotalLanches = lanches.Count();
+
             return View(lanches);
         }
     }
