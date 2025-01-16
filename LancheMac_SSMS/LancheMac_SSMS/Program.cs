@@ -19,6 +19,15 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddTransient<ILancheRepository, LancheRepository>();
 builder.Services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 
+// definindo o serviço para acessar os recursos do HttpContextAcessor
+// addSingleton - quer dizer que ele vai durar durante todo tempo de vida da aplicação
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+
+// Configurando Session
+builder.Services.AddMemoryCache();
+builder.Services.AddSession();
+
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 // Add services to the container.
@@ -32,6 +41,10 @@ if (!app.Environment.IsDevelopment()) {
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
+
+// Ativando a session
+app.UseSession();  // <<<<<
+//------------------------------------
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

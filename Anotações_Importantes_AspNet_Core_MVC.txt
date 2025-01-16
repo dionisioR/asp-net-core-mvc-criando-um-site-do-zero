@@ -468,6 +468,99 @@ VIEWMODEL
 
 
 
+===========================================
+ SESSION
+===========================================
+- HTTP é um protocolo sem estado.
+- Asp .NET Core - Session: Microsoft.AspNetCore.Session
+
+- Com base em um dicionário ou tabela hash no servidor, o estado da sessão persiste
+  os dados através das requisições de um navegador.
+ 
+- O ASP.NET Core mantém o estado da sessão, dando ao cliente um cookie que contpem o ID
+  da sessão, que é enviado ao servidor com cada solicitação.
+  
+- O servidor mantém uma sessão por tempo limitado após a última requisisção.
+
+- Você pode definir o tempo limite da sessão ou usar o valor padrão que é de 20 minutos.
+
+- O estado da sessão é ideal para armazenar dados do usuário espefíficos de uma determinada sessão.
+
+- Dados sãos excluídos do cache: Sessão expira ou Session.Clear()  
+
+
+
+Configurando Sessão
+--------------------------------------------
+
+- Classe Startup deve conter:
+	
+	- Qualquer um dos caches de memória: IDistributedCache
+	- Uma chamada a AddSession em ConfigureServices()
+	- A chamada UseSession em Configure()
+  
+	public void ConfigureServices(IServiceCollection services){
+		// adiciona uma implementação padrão de IDstributedCache
+		services.AddDistributedMemoryCache();
+		services.AddSession();
+	}
+	
+	public void Configure(IAppplicationBuilder app, IHostingEnvironment env){
+		...
+		app.UseSession();  <<<<
+		
+		app.Run(async(context) => { await context.Response.WriteAsync(msg.GetMesagem());  });
+	}
+		
+
+
+
+Criando Sessão
+--------------------------------------------
+
+	- const string SessionKeyNome = "_Nome";
+	- const string sessionKeyIdade = "_Idade";
+
+- Atribuindo
+	- HttpContext.Session.SetString(SessionKeyNome, "RD3W");
+	- HttpContext.Session.SetInt32(sessionKeyIdade, 23);
+	
+- Recuperando
+	- var nome = context.Session.getString(SessionKeyNome);
+	- var idade = context.Session.GetInt32(sessionKeyIdade);
+
+
+
+===========================================
+===========================================
+	
+
+
+
+
+
+===========================================
+===========================================
+	
+
+
+
+
+
+===========================================
+===========================================
+	
+
+
+
+
+
+===========================================
+===========================================
+	
+
+
+
 
 
 ===========================================

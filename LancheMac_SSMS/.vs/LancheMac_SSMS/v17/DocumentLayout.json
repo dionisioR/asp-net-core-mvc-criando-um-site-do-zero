@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Migrations\\20250115214111_CarrinhoCompraItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LancheMac_SSMS\\Migrations\\20250115214111_CarrinhoCompraItem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\models\\carrinhocompraitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\models\\carrinhocompraitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250115214111_CarrinhoCompraItem.cs",
-              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Migrations\\20250115214111_CarrinhoCompraItem.cs",
-              "RelativeDocumentMoniker": "LancheMac_SSMS\\Migrations\\20250115214111_CarrinhoCompraItem.cs",
-              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Migrations\\20250115214111_CarrinhoCompraItem.cs",
-              "RelativeToolTip": "LancheMac_SSMS\\Migrations\\20250115214111_CarrinhoCompraItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "CarrinhoCompra.cs",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Models\\CarrinhoCompra.cs",
+              "RelativeDocumentMoniker": "LancheMac_SSMS\\Models\\CarrinhoCompra.cs",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Models\\CarrinhoCompra.cs",
+              "RelativeToolTip": "LancheMac_SSMS\\Models\\CarrinhoCompra.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA7wCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T21:41:12.118Z",
+              "WhenOpened": "2025-01-16T13:10:33.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "LancheMac_SSMS\\Context\\AppDbContext.cs",
-              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "LancheMac_SSMS\\Context\\AppDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABKAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Program.cs",
+              "RelativeDocumentMoniker": "LancheMac_SSMS\\Program.cs",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Program.cs",
+              "RelativeToolTip": "LancheMac_SSMS\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T21:39:49.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CarrinhoCompraItem.cs",
-              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Models\\CarrinhoCompraItem.cs",
-              "RelativeDocumentMoniker": "LancheMac_SSMS\\Models\\CarrinhoCompraItem.cs",
-              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Models\\CarrinhoCompraItem.cs",
-              "RelativeToolTip": "LancheMac_SSMS\\Models\\CarrinhoCompraItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-15T20:58:08.864Z",
+              "WhenOpened": "2025-01-16T12:56:23.845Z",
               "EditorCaption": ""
             }
           ]
