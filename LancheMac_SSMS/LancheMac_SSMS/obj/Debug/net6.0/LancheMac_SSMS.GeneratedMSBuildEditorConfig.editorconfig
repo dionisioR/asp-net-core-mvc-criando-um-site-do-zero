@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\CSharp\asp-net-core-mvc-criando-um-site-do-zero\LancheMac_SSMS\LancheMac_SSMS
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/CSharp/asp-net-core-mvc-criando-um-site-do-zero/LancheMac_SSMS/LancheMac_SSMS/Views/CarrinhoCompra/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FycmluaG9Db21wcmFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/CSharp/asp-net-core-mvc-criando-um-site-do-zero/LancheMac_SSMS/LancheMac_SSMS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

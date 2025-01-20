@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\views\\carrinhocompra\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\views\\carrinhocompra\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\models\\carrinhocompra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\controllers\\carrinhocompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\controllers\\carrinhocompracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\viewmodels\\carrinhocompraviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|solutionrelative:lanchemac_ssms\\viewmodels\\carrinhocompraviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3B3E298-C1A7-488D-91DB-40C360A75D40}|LancheMac_SSMS\\LancheMac_SSMS.csproj|f:\\csharp\\asp-net-core-mvc-criando-um-site-do-zero\\lanchemac_ssms\\lanchemac_ssms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,27 +35,67 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Views\\CarrinhoCompra\\Index.cshtml",
+              "RelativeDocumentMoniker": "LancheMac_SSMS\\Views\\CarrinhoCompra\\Index.cshtml",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Views\\CarrinhoCompra\\Index.cshtml",
+              "RelativeToolTip": "LancheMac_SSMS\\Views\\CarrinhoCompra\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAADEAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-20T21:56:02.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarrinhoCompraViewModel.cs",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\ViewModels\\CarrinhoCompraViewModel.cs",
+              "RelativeDocumentMoniker": "LancheMac_SSMS\\ViewModels\\CarrinhoCompraViewModel.cs",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\ViewModels\\CarrinhoCompraViewModel.cs",
+              "RelativeToolTip": "LancheMac_SSMS\\ViewModels\\CarrinhoCompraViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T21:22:09.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarrinhoCompraController.cs",
+              "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Controllers\\CarrinhoCompraController.cs",
+              "RelativeDocumentMoniker": "LancheMac_SSMS\\Controllers\\CarrinhoCompraController.cs",
+              "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Controllers\\CarrinhoCompraController.cs",
+              "RelativeToolTip": "LancheMac_SSMS\\Controllers\\CarrinhoCompraController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T21:11:13.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CarrinhoCompra.cs",
               "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Models\\CarrinhoCompra.cs",
               "RelativeDocumentMoniker": "LancheMac_SSMS\\Models\\CarrinhoCompra.cs",
               "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Models\\CarrinhoCompra.cs",
               "RelativeToolTip": "LancheMac_SSMS\\Models\\CarrinhoCompra.cs",
-              "ViewState": "AQIAAD8AAAAAAAAAAAAgwFcAAAAZAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAgwEYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T13:10:33.181Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Program.cs",
               "RelativeDocumentMoniker": "LancheMac_SSMS\\Program.cs",
               "ToolTip": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\Program.cs",
               "RelativeToolTip": "LancheMac_SSMS\\Program.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAC0AAAAbAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABkAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T12:56:23.845Z"
+              "WhenOpened": "2025-01-16T12:56:23.845Z",
+              "EditorCaption": ""
             }
           ]
         }

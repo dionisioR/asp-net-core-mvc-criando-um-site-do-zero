@@ -1,4 +1,5 @@
 using LancheMac_SSMS.Context;
+using LancheMac_SSMS.Models;
 using LancheMac_SSMS.Repositories;
 using LancheMac_SSMS.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
@@ -22,6 +23,7 @@ builder.Services.AddTransient<ICategoriaRepository, CategoriaRepository>();
 // definindo o serviço para acessar os recursos do HttpContextAcessor
 // addSingleton - quer dizer que ele vai durar durante todo tempo de vida da aplicação
 builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+builder.Services.AddScoped(sp => CarrinhoCompra.GetCarrinho(sp));
 
 
 // Configurando Session
