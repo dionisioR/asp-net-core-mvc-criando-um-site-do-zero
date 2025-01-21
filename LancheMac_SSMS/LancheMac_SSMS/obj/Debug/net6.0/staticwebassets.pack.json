@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\wwwroot\\images\\Full-Cart-icon.png",
+      "PackagePath": "staticwebassets\\images\\Full-Cart-icon.png"
+    },
+    {
       "Id": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\wwwroot\\images\\carousel11.jpg",
       "PackagePath": "staticwebassets\\images\\carousel11.jpg"
     },
@@ -23,6 +27,18 @@
     {
       "Id": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\wwwroot\\images\\carousel13.jpg",
       "PackagePath": "staticwebassets\\images\\carousel13.jpg"
+    },
+    {
+      "Id": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\wwwroot\\images\\cart-5-16.ico",
+      "PackagePath": "staticwebassets\\images\\cart-5-16.ico"
+    },
+    {
+      "Id": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\wwwroot\\images\\delete.png",
+      "PackagePath": "staticwebassets\\images\\delete.png"
+    },
+    {
+      "Id": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\wwwroot\\images\\remove.ico",
+      "PackagePath": "staticwebassets\\images\\remove.ico"
     },
     {
       "Id": "F:\\CSharp\\asp-net-core-mvc-criando-um-site-do-zero\\LancheMac_SSMS\\LancheMac_SSMS\\wwwroot\\js\\site.js",
