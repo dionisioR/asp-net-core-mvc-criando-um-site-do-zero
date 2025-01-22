@@ -532,13 +532,47 @@ Criando Sessão
 
 
 ===========================================
+TAG HELPERS  <<<<<<<<<<<<<<
 ===========================================
+	- As TAG HELPERS permitem que o código do lado do servidor participe na criação e renderização 
+	de elementos HTML em arquivos Razor.
+	- Elas são uma sintaxe alternativa aos Html Helpers e obtem o mesmo esultado final gerando o código 
+	HTML.
+	- A sintaxe parece com HTML (elementos e atributos), mas é processado pelo Razor no servidor.
 	
+	
+	<input type="text" asp-for="Nome" />		>>>			<input id="nome" name="nome" type="text" value="" />
+	<label asp-for="Email"></label>				>>>			<label for="Emal">Email</label>
+	<form asp-controller="Conta" asp-action="Login">		>>>		<form action="/Conta/Login" method="post">
+		*** elementos aqui																*** elementos aqui
+	</form>															</form>
+
+	
+	- A TAG HELPER vincula um elemento HTML <input> a uma expressão de modelo na sua view razor.
+	- A sintaxe usada é:
+		<input asp-for="<nome_da_expressão>" />
+
+	- Tipo .NET			input type
+		Bool			type="checkbox"
+		String			type="text"
+		DateTime		type="datetime"
+		Byte			type="number"
+		Int				type="number"
+		Single, Double	type="number"
+		
+	- Atributos			input type
+		[EmailAddress]			type="email"
+		[Url]					type="url"
+		[HiddenInput]			type="hidden"
+		[Phone]					type="tel"
+		[DataType(DataType.Password)]		type="password"
+		[DataType(DataType.Date)]			type="date"
+		[DataType(DataType.Time)]			type="time"
 
 
 
-
-
+	Adicionar diretriz no arquivo "ViewImports.cshtml"
+		@addTagHelper LancheMac_SSMS.TagHelpers.*, LancheMac_SSMS
 ===========================================
 ===========================================
 	
